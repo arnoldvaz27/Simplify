@@ -25,7 +25,11 @@ Add JitPack in your **root** ***build.gradle*** at the end of repositories:
 		}
 	}
  ```
- 
+ OR just copy the below code and paste in the ***repositories***
+ ```gradle
+maven { url 'https://jitpack.io' }
+```
+
   Add the dependency in your **app *build.gradle***:
  
  ```gradle
@@ -33,6 +37,10 @@ Add JitPack in your **root** ***build.gradle*** at the end of repositories:
 	        implementation 'com.github.arnoldvaz27:Simplify:1.0'
 	}
  ```
+  OR just copy the below code and paste in the ***build.gradle***
+```gradle
+implementation 'com.github.arnoldvaz27:Simplify:1.0'
+```
  
  
  ## For Maven
@@ -40,7 +48,9 @@ Add JitPack in your **root** ***build.gradle*** at the end of repositories:
  	<repositories>
 		<repository>
 		    <id>jitpack.io</id>
-		    <url>https://jitpack.io</url>
+		    <url>
+		    	https://jitpack.io
+		    </url>
 		</repository>
 	</repositories>
    ```
@@ -77,8 +87,11 @@ Add JitPack in your **root** ***build.gradle*** at the end of repositories:
  
  
  ## Methods in Simplify
+ Import the following library in the Android Activity or class:
  
-
+```Java
+import com.arnold.simplify.Primitives;
+```
 Java Code:
 1) **String Reverse** 
   ```Java
