@@ -10,6 +10,8 @@
 ![Copyright](https://img.shields.io/badge/Copyright%202021-Arnold%20Alwyn%20Vaz-blue)
 ![MIN SDK](https://img.shields.io/badge/Andriod%20SDK-API%2021-yellow)
 
+![Thank you](https://img.shields.io/badge/Arnold%20Vaz-Thank%20you%20for%20visiting%20this%20open%20source%20library-red)
+
 ## About ![About](https://img.shields.io/badge/Simplify-About-orange)
 Simplify is an Android Library that consists of different methods that can be used to make development more smoother and the developer has to write less code in order to get the output
 
