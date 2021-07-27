@@ -6,6 +6,8 @@ import android.annotation.SuppressLint;
 import android.os.Bundle;
 import android.widget.TextView;
 
+import java.util.Arrays;
+
 public class MainActivity extends AppCompatActivity {
 
     TextView textView;
@@ -17,9 +19,10 @@ public class MainActivity extends AppCompatActivity {
 
         textView = findViewById(R.id.header_title);
 
-        String a  = Primitives.normalAscii("Arnold");
-        String c = Primitives.toTitleCase("arnold vaz");
-        textView.setText(a+"\n\n"+c);
+        String s = Primitives.checkArmstrong(999);
+
+        textView.setText(s);
+
 
     }
 }
