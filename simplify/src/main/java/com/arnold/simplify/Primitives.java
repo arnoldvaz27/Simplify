@@ -38,9 +38,6 @@ public class Primitives {
     public static String sentenceToArray(String string) {
         String[] words = string.split("\\s+");
         for (int i = 0; i < words.length; i++) {
-            // You may want to check for a non-word character before blindly
-            // performing a replacement
-            // It may also be necessary to adjust the character class
             words[i] = words[i].replaceAll("[^\\w]", "");
         }
         return Arrays.toString(words);
@@ -86,9 +83,9 @@ public class Primitives {
     //Fibonacci series
     public static String Fibonacci(int count) {
         int n1 = 0, n2 = 1, n3, i;
-        StringBuilder a = new StringBuilder(n1 + "," + n2);//printing 0 and 1
+        StringBuilder a = new StringBuilder(n1 + "," + n2);
 
-        for (i = 2; i < count; ++i)//loop starts from 2 because 0 and 1 are already printed
+        for (i = 2; i < count; ++i)
         {
             n3 = n1 + n2;
             a.append(",").append(n3);
