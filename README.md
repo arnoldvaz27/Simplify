@@ -7,12 +7,12 @@
 ![License](https://img.shields.io/badge/License-MIT-purple)
 
 ![Copyright](https://img.shields.io/badge/Copyright%202021-Arnold%20Alwyn%20Vaz-blue)
-![Stable Release](https://img.shields.io/badge/status-stable%20release-red)
+![MIN SDK](https://img.shields.io/badge/Andriod%20SDK-API%2021-yellow)
 
 ## About ![About](https://img.shields.io/badge/Simplify-About-orange)
 Simplify is an Android Library that consists of different methods that can be used to make development more smoother and the developer has to write less code in order to get the output
 
-## How to use Simplify in my Android Project
+## How to use Simplify in my Android Project ![Doc](https://img.shields.io/badge/Documentation-Only%20For%20Latest%20Release%20Version-red) ![Release](https://img.shields.io/badge/Stable%20Release-Version%201.0-violet)
 Add JitPack in your **root** ***build.gradle*** at the end of repositories:
 
  ## For Gradle
@@ -89,51 +89,59 @@ implementation 'com.github.arnoldvaz27:Simplify:1.0'
  ## Methods in Simplify
  Import the following library in the Android Activity or class:
  
+ Import Statements:
+ 1) **For importing Primitives methods**
 ```Java
 import com.arnold.simplify.Primitives;
 ```
+
+2) **For importing All methods**
+```Java
+import com.arnold.simplify.*;
+```
+
 Java Code:
-1) **String Reverse** 
+1) **String Reverse** ```Version 1.0```
   ```Java
         String a  = Primitives.reverse("Arnold");
  ```
  
-2) **String Normal Ascii**
+2) **String Normal Ascii**  ```Version 1.0```
   ```Java
         String a  = Primitives.normalAscii("Arnold");
  ```
  
-3) **String Reverse Ascii**
+3) **String Reverse Ascii** ```Version 1.0```
   ```Java
         String a  = Primitives.reverseAscii("Arnold");
  ```
  
-4) **String Title Case**
+4) **String Title Case** ```Version 1.0```
   ```Java
         String a  = Primitives.toTitleCase("Arnold");
  ```
  
-5) **String Toggle Case**
+5) **String Toggle Case** ```Version 1.0```
   ```Java
         String a  = Primitives.toToggleCase("Arnold");
  ```
  
-6) **Int Word Counter**
+6) **Int Word Counter** ```Version 1.0```
   ```Java
         int a  = Primitives.wordCounter("Arnold");
  ```
  
-7) **Int Add Ascii**
+7) **Int Add Ascii** ```Version 1.0```
   ```Java
         int a  = Primitives.addAscii("Arnold");
  ```
  
-8) **Int Subtract Ascii**
+8) **Int Subtract Ascii** ```Version 1.0```
   ```Java
         int a  = Primitives.subtractAscii("Arnold");
  ```
  
-9) **Boolean Palindrome Check**
+9) **Boolean Palindrome Check** ```Version 1.0```
   ```Java
         Boolean a  = Primitives.isPalindrome("Arnold");
  ```
@@ -141,6 +149,8 @@ Java Code:
  ## Licence
 This library is shared under **MIT License**.
 
- # Developed By
+ ## Developed By
 
  ### Made with ♥ by Arnold Vaz
+ 
+ 
