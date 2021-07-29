@@ -63,7 +63,6 @@ public class Primitives {
             }
             converted.append(ch);
         }
-
         return converted.toString();
     }
 
@@ -81,12 +80,11 @@ public class Primitives {
     }
 
     //Fibonacci series
-    public static String Fibonacci(int count) {
+    public static String Fibonacci(int number) {
         int n1 = 0, n2 = 1, n3, i;
         StringBuilder a = new StringBuilder(n1 + "," + n2);
 
-        for (i = 2; i < count; ++i)
-        {
+        for (i = 2; i < number; ++i) {
             n3 = n1 + n2;
             a.append(",").append(n3);
             n1 = n2;
@@ -97,42 +95,42 @@ public class Primitives {
     }
 
     //Factorial
-    public static String Factorial(int count) {
+    public static String Factorial(int number) {
         String a;
         int i, fact = 1;
-        for (i = 1; i <= count; i++) {
+        for (i = 1; i <= number; i++) {
             fact = fact * i;
         }
-        a = "Factorial of " + count + " is : " + fact;
+        a = "Factorial of " + number + " is : " + fact;
 
         return a;
     }
 
     //Factorial
-    public static Boolean Armstrong(int count) {
+    public static Boolean Armstrong(int number) {
         int temp, digits = 0, last, sum = 0;
-        temp = count;
+        temp = number;
         while (temp > 0) {
             temp = temp / 10;
             digits++;
         }
-        temp = count;
+        temp = number;
         while (temp > 0) {
             last = temp % 10;
             sum += (Math.pow(last, digits));
             temp = temp / 10;
         }
-        return count == sum;
+        return number == sum;
     }
 
     public static String checkArmstrong(int number) {
         StringBuilder a = new StringBuilder();
-        for (int i = 0; i <= number; i++){
-            if (Armstrong(i)){
+        for (int i = 0; i <= number; i++) {
+            if (Armstrong(i)) {
                 a.append(i).append(", ");
             }
         }
-        return a.substring(0,a.length()-2);
+        return a.substring(0, a.length() - 2);
     }
 
 
@@ -156,6 +154,102 @@ public class Primitives {
             }
         }
         return a;
+    }
+
+    //to Check the given number is sunny or not
+    public static String Sunny(int number) {
+        String a;
+        if (findSquare(number + 1)) {
+            a = number + " is a sunny number.";
+        }
+//executes if N+1 is not a perfect square
+        else {
+            a = number + " is not a sunny number.";
+        }
+        return a;
+    }
+
+    public static String Punctuation(String string) {
+        int count = 0;
+        String a;
+        for (int i = 0; i < string.length(); i++) {
+            if (string.charAt(i) == '!' || string.charAt(i) == ',' || string.charAt(i) == ';' || string.charAt(i) == '.' || string.charAt(i) == '?' || string.charAt(i) == '-' ||
+                    string.charAt(i) == '\'' || string.charAt(i) == '\"' || string.charAt(i) == ':') {
+                count++;
+            }
+        }
+        a = "The number of punctuations exists in the given string is: " + count;
+        return a;
+    }
+    public static String Vowels(String string) {
+        int vCount = 0;
+        String a;
+        //Converting entire string to lower case to reduce the comparisons
+        string = string.toLowerCase();
+
+        for(int i = 0; i < string.length(); i++) {
+            if(string.charAt(i) == 'a' || string.charAt(i) == 'e' || string.charAt(i) == 'i' || string.charAt(i) == 'o' || string.charAt(i) == 'u') {
+                //Increments the vowel counter
+                vCount++;
+            }
+        }
+        a = "Number of vowels: " + vCount;
+        return a;
+    }
+
+    public static String Consonants(String string) {
+        int cCount = 0;
+        String a;
+        string = string.toLowerCase();
+
+        for(int i = 0; i < string.length(); i++) {
+            if(string.charAt(i) == 'a' || string.charAt(i) == 'e' || string.charAt(i) == 'i' || string.charAt(i) == 'o' || string.charAt(i) == 'u') {
+                //Increments the vowel counter
+            }
+            //Checks whether a character is a consonant
+            else if(string.charAt(i) >= 'a' && string.charAt(i)<='z') {
+                //Increments the consonant counter
+                cCount++;
+            }
+        }
+        a = "Number of consonants: " + cCount;
+        return a;
+    }
+
+    public static String Anagram(String string1,String string2) {
+        string1 = string1.toLowerCase();
+        string2 = string2.toLowerCase();
+        String a;
+        if (string1.length() != string2.length()) {
+            a = "Both the strings are not anagram";
+        }
+        else {
+            char[] str1 = string1.toCharArray();
+            char[] str2 = string2.toCharArray();
+
+            Arrays.sort(str1);
+            Arrays.sort(str2);
+
+            if(Arrays.equals(str1, str2)) {
+                a = "Both the strings are anagram";
+            }
+            else {
+                a = "Both the strings are not anagram";
+            }
+        }
+        return a;
+    }
+
+    public static String AutomorphicRange(int start, int end){
+        StringBuilder a = new StringBuilder();
+        for(int i=start; i<=end; i++)
+        {
+            if(Automorphic(i))
+                a.append(i+" ");
+        }
+
+        return a.toString();
+
     }
     //strings end
 
@@ -214,17 +308,60 @@ public class Primitives {
         }
         return sum;
     }
+
+    //Factorial
+    public static int factorialNumber(int number) {
+        int i, fact = 1;
+        for (i = 1; i <= number; i++) {
+            fact = fact * i;
+        }
+        return fact;
+    }
+
+    public static int VowelsNumber(String string) {
+        int vCount = 0;
+
+        string = string.toLowerCase();
+
+        for(int i = 0; i < string.length(); i++) {
+            if(string.charAt(i) == 'a' || string.charAt(i) == 'e' || string.charAt(i) == 'i' || string.charAt(i) == 'o' || string.charAt(i) == 'u') {
+                vCount++;
+            }
+        }
+        return vCount;
+    }
+
+    public static int ConsonantsNumber(String string) {
+        int cCount = 0;
+
+        string = string.toLowerCase();
+
+        for(int i = 0; i < string.length(); i++) {
+            if(string.charAt(i) == 'a' || string.charAt(i) == 'e' || string.charAt(i) == 'i' || string.charAt(i) == 'o' || string.charAt(i) == 'u') {
+                //Increments the vowel counter
+            }
+            //Checks whether a character is a consonant
+            else if(string.charAt(i) >= 'a' && string.charAt(i)<='z') {
+                //Increments the consonant counter
+                cCount++;
+            }
+        }
+        return cCount;
+    }
+
+
     //integers end
+
 
     //booleans
     //checking whether the given string isPalindrome or not
-    public static boolean isPalindrome(String str) {
+    public static boolean isPalindrome(String string) {
 
-        int i = 0, j = str.length() - 1;
+        int i = 0, j = string.length() - 1;
 
         while (i < j) {
 
-            if (str.charAt(i) != str.charAt(j))
+            if (string.charAt(i) != string.charAt(j))
                 return false;
             i++;
             j--;
@@ -232,7 +369,15 @@ public class Primitives {
 
         return true;
     }
+
+
+    //to Check the given number is sunny or not
+    private static boolean findSquare(double number) {
+        double square_root = Math.sqrt(number);
+        return ((square_root - Math.floor(square_root)) == 0);
+    }
     //booleans end
+
 
     // float
     //converting
@@ -246,6 +391,22 @@ public class Primitives {
         float fah;
         fah = (1.8f * value) + 32;
         return fah;
+    }
+
+    public static Boolean Automorphic(int number) {
+        int count = 0;
+        String a;
+        int square = number * number;
+        int temp = number;
+        while (temp > 0) {
+            count++;
+            temp = temp / 10;
+        }
+        int lastDigit = (int) (square % (Math.pow(10, count)));
+        if (number == lastDigit)
+            return true;
+        else
+            return false;
     }
     //float end
 }

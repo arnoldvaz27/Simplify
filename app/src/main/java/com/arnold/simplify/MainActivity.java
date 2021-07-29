@@ -6,7 +6,6 @@ import android.annotation.SuppressLint;
 import android.os.Bundle;
 import android.widget.TextView;
 
-import java.util.Arrays;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -19,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
 
         textView = findViewById(R.id.header_title);
 
-        String s = Primitives.checkArmstrong(999);
+        String s = Primitives.AutomorphicRange(1,10000);
 
         textView.setText(s);
 
