@@ -15,7 +15,7 @@
 ## About ![About](https://img.shields.io/badge/Simplify-About-orange)
 Simplify is an Android Library that consists of different methods that can be used to make development more smoother and the developer has to write less code in order to get the output
 
-## How to use Simplify in my Android Project ![Doc](https://img.shields.io/badge/Documentation-Only%20For%20Latest%20Release%20Version-red) ![Release](https://img.shields.io/badge/Stable%20Release-Version%201.1-violet)
+## How to use Simplify in my Android Project ![Doc](https://img.shields.io/badge/Documentation-Only%20For%20Latest%20Release%20Version-red) ![Release](https://img.shields.io/badge/Stable%20Release-Version%201.2-violet)
 
 
  ## For Gradle
@@ -35,7 +35,17 @@ maven { url 'https://jitpack.io' }
 
 2) Add the dependency in your **app *build.gradle***:
   
-  **If you want to use version 1.1 then add the following dependency** ![](https://img.shields.io/badge/Release-1.1-green) [![](https://jitpack.io/v/arnoldvaz27/Simplify.svg)](https://jitpack.io/#arnoldvaz27/Simplify)
+  **If you want to use version 1.2 then add the following dependency** ![](https://img.shields.io/badge/Release-1.2-green) [![](https://jitpack.io/v/arnoldvaz27/Simplify.svg)](https://jitpack.io/#arnoldvaz27/Simplify)
+ ```gradle
+ 	dependencies {
+	        implementation 'com.github.arnoldvaz27:Simplify:1.2'
+	}
+ ```
+  OR just copy the below code and paste in the ***build.gradle***
+```gradle
+implementation 'com.github.arnoldvaz27:Simplify:1.2'
+```
+  **If you want to use version 1.1 then add the following dependency** ![](https://img.shields.io/badge/Older%20Release-1.1-green) [![](https://img.shields.io/badge/JitPack-1.1-brightgreen)](https://img.shields.io/badge/JitPack-1.0-brightgreen)
  ```gradle
  	dependencies {
 	        implementation 'com.github.arnoldvaz27:Simplify:1.1'
@@ -55,6 +65,7 @@ implementation 'com.github.arnoldvaz27:Simplify:1.1'
  ```gradle
 implementation 'com.github.arnoldvaz27:Simplify:1.0'
 ```
+
  ## For Maven
  1) Add JitPack:
    ```gradle
@@ -70,7 +81,16 @@ implementation 'com.github.arnoldvaz27:Simplify:1.0'
    
  2) Add the dependency:
  
-  **If you want to use version 1.1 then add the following dependency** ![](https://img.shields.io/badge/Release-1.1-green) [![](https://jitpack.io/v/arnoldvaz27/Simplify.svg)](https://jitpack.io/#arnoldvaz27/Simplify)
+   **If you want to use version 1.2 then add the following dependency** ![](https://img.shields.io/badge/Release-1.2-green) [![](https://jitpack.io/v/arnoldvaz27/Simplify.svg)](https://jitpack.io/#arnoldvaz27/Simplify)
+  ```gradle
+	<dependency>
+	    <groupId>com.github.arnoldvaz27</groupId>
+	    <artifactId>Simplify</artifactId>
+	    <version>1.2</version>
+	</dependency>
+ ```
+  **If you want to use version 1.1 then add the following dependency** ![](https://img.shields.io/badge/Older%20Release-1.1-green) [![](https://img.shields.io/badge/JitPack-1.1-brightgreen)](https://img.shields.io/badge/JitPack-1.0-brightgreen)
+  
   ```gradle
 	<dependency>
 	    <groupId>com.github.arnoldvaz27</groupId>
@@ -97,7 +117,11 @@ implementation 'com.github.arnoldvaz27:Simplify:1.0'
     
  2) Add the dependency:
  
- **If you want to use version 1.1 then add the following dependency** ![](https://img.shields.io/badge/Release-1.1-green) [![](https://jitpack.io/v/arnoldvaz27/Simplify.svg)](https://jitpack.io/#arnoldvaz27/Simplify)
+ **If you want to use version 1.2 then add the following dependency** ![](https://img.shields.io/badge/Release-1.2-green) [![](https://jitpack.io/v/arnoldvaz27/Simplify.svg)](https://jitpack.io/#arnoldvaz27/Simplify)
+  ```gradle
+	libraryDependencies += "com.github.arnoldvaz27" % "Simplify" % "1.2"
+ ```
+**If you want to use version 1.1 then add the following dependency** ![](https://img.shields.io/badge/Older%20Release-1.1-green) [![](https://img.shields.io/badge/JitPack-1.1-brightgreen)](https://img.shields.io/badge/JitPack-1.0-brightgreen)
   ```gradle
 	libraryDependencies += "com.github.arnoldvaz27" % "Simplify" % "1.1"
  ```
@@ -116,7 +140,12 @@ implementation 'com.github.arnoldvaz27:Simplify:1.0'
    
  2) Add the dependency:
  
-  **If you want to use version 1.1 then add the following dependency** ![](https://img.shields.io/badge/Release-1.1-green) [![](https://jitpack.io/v/arnoldvaz27/Simplify.svg)](https://jitpack.io/#arnoldvaz27/Simplify)
+**If you want to use version 1.2 then add the following dependency** ![](https://img.shields.io/badge/Release-1.2-green) [![](https://jitpack.io/v/arnoldvaz27/Simplify.svg)](https://jitpack.io/#arnoldvaz27/Simplify)
+  ```gradle
+	:dependencies [[com.github.arnoldvaz27/Simplify "1.2"]]
+ ```
+
+**If you want to use version 1.1 then add the following dependency** ![](https://img.shields.io/badge/Older%20Release-1.1-green) [![](https://img.shields.io/badge/JitPack-1.1-brightgreen)](https://img.shields.io/badge/JitPack-1.0-brightgreen)
   ```gradle
 	:dependencies [[com.github.arnoldvaz27/Simplify "1.1"]]
  ```
@@ -127,114 +156,10 @@ implementation 'com.github.arnoldvaz27:Simplify:1.0'
  ```
  
  ## Methods in Simplify
- Import the following library in the Android Activity or class:
+  
+**For Method Details of Simplify** [Click Here](https://github.com/arnoldvaz27/SimplifyDocumentation)
  
- Import Statements:
- 1) **For importing Primitives methods**
-```Java
-import com.arnold.simplify.Primitives;
-```
 
-2) **For importing All methods**
-```Java
-import com.arnold.simplify.*;
-```
-
-Java Code:
-1) **String Reverse** ```Version 1.0```
-  ```Java
-        String a  = Primitives.reverse("Arnold");
- ```
- 
-2) **String Normal Ascii**  ```Version 1.0```
-  ```Java
-        String a  = Primitives.normalAscii("Arnold");
- ```
- 
-3) **String Reverse Ascii** ```Version 1.0```
-  ```Java
-        String a  = Primitives.reverseAscii("Arnold");
- ```
- 
-4) **String Title Case** ```Version 1.0```
-  ```Java
-        String a  = Primitives.toTitleCase("Arnold");
- ```
- 
-5) **String Toggle Case** ```Version 1.0```
-  ```Java
-        String a  = Primitives.toToggleCase("Arnold");
- ```
- 
-6) **Int Word Counter** ```Version 1.0```
-  ```Java
-        int a  = Primitives.wordCounter("Arnold");
- ```
- 
-7) **Int Add Ascii** ```Version 1.0```
-  ```Java
-        int a  = Primitives.addAscii("Arnold");
- ```
- 
-8) **Int Subtract Ascii** ```Version 1.0```
-  ```Java
-        int a  = Primitives.subtractAscii("Arnold");
- ```
- 
-9) **Boolean Palindrome Check** ```Version 1.0```
-  ```Java
-        Boolean a  = Primitives.isPalindrome("Arnold");
- ```
- 
-10) **String Sentence to Array** ```Version 1.1```
-  ```Java
-        String s = Primitives.sentenceToArray("Arnold");
- ```
-  
-11) **String Fibonacci Series** ```Version 1.1```
-  ```Java
-        String s = Primitives.Fibonacci(10);
- ```
-  
-12) **String Factorial** ```Version 1.1```
-  ```Java
-        String s = Primitives.Factorial(5);
- ```
- 
-13) **String Armstrong Number** ```Version 1.1```
-  ```Java
-        String s = Primitives.checkArmstrong(999);
- ```
- 
-14) **String Prime Number** ```Version 1.1```
-  ```Java
-        String s = Primitives.checkPrimeNumber(10);
- ```
-  
-15) **int Reverse Number** ```Version 1.1```
-  ```Java
-        int r = Primitives.reverseNumber(10678);
- ```
-  
-16) **int Sum of Array** ```Version 1.1```
-  ```Java
-        int [] arr = new int [] {1, 2, 3, 4, 5};
-        int s = Primitives.sumOfArray(arr);
-        String a = String.valueOf(s);
- ```
-   
-17) **float Cenigrade to Fahrenheit** ```Version 1.1```
-  ```Java
-        float s = Primitives.CentigradeToFahrenheit(35);
-        String a = String.valueOf(s);
- ```
-   
-18) **float Fahrenheit to Cenigrade** ```Version 1.1```
-  ```Java
-        float s = Primitives.FahrenheitToCentigrade(96);
-        String a = String.valueOf(s);
- ```
- 
 # For Development of the Library:
 ## Code reviews ![Code Review](https://img.shields.io/badge/Simplify-Code-blueviolet)
 
