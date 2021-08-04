@@ -133,7 +133,6 @@ public class Primitives {
         return a.substring(0, a.length() - 2);
     }
 
-
     //check Prime Number
     public static String checkPrimeNumber(int number) {
         int i, m, flag = 0;

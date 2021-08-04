@@ -6,7 +6,6 @@ import android.annotation.SuppressLint;
 import android.os.Bundle;
 import android.widget.TextView;
 
-
 public class MainActivity extends AppCompatActivity {
 
     TextView textView;
@@ -22,6 +21,7 @@ public class MainActivity extends AppCompatActivity {
 
         textView.setText(s);
 
+        Custom.toast(MainActivity.this,"Hello",R.drawable.done,R.color.purple_200);
 
     }
 }
