@@ -15,6 +15,8 @@
 ## About ![About](https://img.shields.io/badge/Simplify-About-orange)
 Simplify is an Android Library that consists of different methods that can be used to make development more smoother and the developer has to write less code in order to get the output
 
+***Please read the documentation carefully, if you have any queries feel free to connect with me***
+
 ## How to use Simplify in my Android Project ![Doc](https://img.shields.io/badge/Documentation-Only%20For%20Latest%20Release%20Version-red) ![Release](https://img.shields.io/badge/Stable%20Release-Version%201.3-violet)
 
 
@@ -32,6 +34,43 @@ Simplify is an Android Library that consists of different methods that can be us
  ```gradle
 maven { url 'https://jitpack.io' }
 ```
+
+**`If you find the following error** 
+
+***Example***
+
+> A problem occurred evaluating root project 'WeatherGuide'. 
+
+> Build was configured to prefer settings repositories over project repositories but repository 'maven' was added by build file 'build.gradle'
+
+> **This error generally occurs in newer android studio version starting from version 4.0**
+
+**Please replace the code in the settings.gradle file**
+
+> **From**
+```gradle
+dependencyResolutionManagement {
+    	repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    	repositories {
+        google()
+        mavenCentral()
+    }
+}
+ ```
+ 
+> **To**
+
+```gradle
+dependencyResolutionManagement {
+    	repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    	repositories {
+        google()
+        mavenCentral()
+        maven { url 'https://jitpack.io' }
+    }
+}
+ ```
+
 
 2) Add the dependency in your **app *build.gradle***:
   
