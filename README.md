@@ -19,9 +19,8 @@ Simplify is an Android Library that consists of different methods that can be us
 
 ## How to use Simplify in my Android Project ![Doc](https://img.shields.io/badge/Documentation-Only%20For%20Latest%20Release%20Version-red) ![Release](https://img.shields.io/badge/Stable%20Release-Version%201.3-violet)
 
-<br>
 
- ## For Gradle
+## For Gradle
 1) Add JitPack in your **root** ***build.gradle*** at the end of repositories:
 ```gradle
 	allprojects {
@@ -117,10 +116,7 @@ implementation 'com.github.arnoldvaz27:Simplify:1.1'
 implementation 'com.github.arnoldvaz27:Simplify:1.0'
 ```
 
-<br>
-
-
- ## For Maven
+## For Maven
  1) Add JitPack:
    ```gradle
  	<repositories>
@@ -171,10 +167,8 @@ implementation 'com.github.arnoldvaz27:Simplify:1.0'
 	</dependency>
  ```
  
- <br>
 
-
- ## For Sbt
+## For Sbt
  1) Add it in your build.sbt at the end of resolvers:
    ```gradle
  	 resolvers += "jitpack" at "https://jitpack.io"
@@ -200,10 +194,8 @@ implementation 'com.github.arnoldvaz27:Simplify:1.0'
 	libraryDependencies += "com.github.arnoldvaz27" % "Simplify" % "1.0"
  ```
   
-<br>
+## For Leiningen
 
-
- ## For Leiningen
  1) Add it in your project.clj at the end of repositories:
    ```gradle
  	 :repositories [["jitpack" "https://jitpack.io"]]
@@ -230,7 +222,7 @@ implementation 'com.github.arnoldvaz27:Simplify:1.0'
 	 :dependencies [[com.github.arnoldvaz27/Simplify "1.0"]]
  ```
  
- ## Methods in Simplify
+## Methods in Simplify
   
 **For Method Details of Simplify** [Click Here](https://github.com/arnoldvaz27/SimplifyDocumentation)
  
