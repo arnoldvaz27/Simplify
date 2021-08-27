@@ -273,4 +273,4 @@ This library is shared under **MIT License**.
 
 ## Developed By
 
-**Made with ♥ by Arnold Vaz**
+**Made with ❤️ by Arnold Vaz**
