@@ -268,6 +268,8 @@ Before making any changes, we recommend opening an issue (if one doesn't already
 Check [here](https://github.com/arnoldvaz27/Simplify/blob/master/LICENSE) for more details 
 This library is shared under **MIT License**.
 
- ## Developed By
+<br>
 
- ### Made with ♥ by Arnold Vaz
+## Developed By
+
+**Made with ♥ by Arnold Vaz**
