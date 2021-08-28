@@ -224,7 +224,7 @@ implementation 'com.github.arnoldvaz27:Simplify:1.0'
  
 ## Methods in Simplify
   
-**For Method Details of Simplify** [Click Here](https://github.com/arnoldvaz27/SimplifyDocumentation)
+**For Method Details of Simplify** [Click Here](https://arnoldvaz27.github.io/SimplifyDocumentation/)
  
 
 # For Development of the Library:
