@@ -17,11 +17,11 @@ public class MainActivity extends AppCompatActivity {
 
         textView = findViewById(R.id.header_title);
 
-        String s = Primitives.AutomorphicRange(1,10000);
+        String s = Strings.AutomorphicRange(1,10000);
 
         textView.setText(s);
 
-        Custom.toast(MainActivity.this,"Hello",R.drawable.done,R.color.purple_200);
+        CustomUI.iconToast(MainActivity.this,"Hello",R.drawable.done,R.color.purple_200);
 
     }
 }

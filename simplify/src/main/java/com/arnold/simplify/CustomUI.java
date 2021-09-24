@@ -10,8 +10,8 @@ import android.widget.TextView;
 
 import androidx.cardview.widget.CardView;
 
-public class Custom {
-    public static void toast(Context context, String message, int icon, int color) {
+public class CustomUI {
+    public static void iconToast(Context context, String message, int icon, int color) {
         android.widget.Toast toast = new android.widget.Toast(context);
         @SuppressLint("InflateParams") View view = LayoutInflater.from(context)
                 .inflate(R.layout.toast_green, null);
@@ -27,6 +27,23 @@ public class Custom {
         if(message.length()>35){
             imageView.setVisibility(View.GONE);
         }
+        toast.setView(view);
+        toast.setDuration(android.widget.Toast.LENGTH_LONG);
+        toast.show();
+    }
+    public static void colorToast(Context context, String message, int color) {
+        android.widget.Toast toast = new android.widget.Toast(context);
+        @SuppressLint("InflateParams") View view = LayoutInflater.from(context)
+                .inflate(R.layout.toast_green, null);
+
+        TextView tvMessage = view.findViewById(R.id.tvMessage);
+        ImageView imageView = view.findViewById(R.id.image);
+        CardView cardView = view.findViewById(R.id.cardView);
+        cardView.setCardBackgroundColor(context.getResources().getColor(color));
+
+        tvMessage.setText(message);
+        imageView.setVisibility(View.GONE);
+
         toast.setView(view);
         toast.setDuration(android.widget.Toast.LENGTH_LONG);
         toast.show();
