@@ -1,4 +1,4 @@
-package com.arnold.simplify;
+package com.arnoldvaz27.simplify;
 
 import androidx.appcompat.app.AppCompatActivity;
 

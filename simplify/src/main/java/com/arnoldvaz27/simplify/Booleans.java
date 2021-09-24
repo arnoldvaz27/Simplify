@@ -1,4 +1,4 @@
-package com.arnold.simplify;
+package com.arnoldvaz27.simplify;
 
 public class Booleans {
     public static Boolean Armstrong(int number) {

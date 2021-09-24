@@ -1,7 +1,7 @@
-package com.arnold.simplify;
+package com.arnoldvaz27.simplify;
 
-import static com.arnold.simplify.Booleans.Armstrong;
-import static com.arnold.simplify.Booleans.Automorphic;
+import static com.arnoldvaz27.simplify.Booleans.Armstrong;
+import static com.arnoldvaz27.simplify.Booleans.Automorphic;
 
 import java.util.Arrays;
 
