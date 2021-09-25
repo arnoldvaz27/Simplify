@@ -15,7 +15,7 @@
 ## About ![About](https://img.shields.io/badge/Simplify-About-orange)
 Simplify is an Android Library that consists of different methods that can be used to make development more smoother and the developer has to write less code in order to get the output
 
-> ***For documentations of previous release 1.0 to 1.3, Click Here***
+> ***For documentations of previous release 1.0 to 1.3, [Click Here](https://vazarnold27.medium.com/simplify-android-library-6683f0d271a4)***
 > 
 > ***Please read the documentation carefully (for releases from 1.4 and above), if you have any queries feel free to connect with me***
 
