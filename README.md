@@ -2,7 +2,7 @@
 
 
 [![](https://jitpack.io/v/arnoldvaz27/Simplify.svg)](https://jitpack.io/#arnoldvaz27/Simplify)
-![OpenSource](https://img.shields.io/badge/Open%20Source-All%20pull%20requests%20will%20be%20verified%20and%20accepted-brightgreen)
+![OpenSource](https://img.shields.io/badge/Open%20Source-All%20pull%20requests%20will%20be%20verified%20and%20accepted-blue)
 
 ![Stable Release](https://img.shields.io/badge/status-stable%20release-red)
 ![License](https://img.shields.io/badge/License-MIT-purple)
