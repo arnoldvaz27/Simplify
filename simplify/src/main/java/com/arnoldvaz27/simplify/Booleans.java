@@ -1,7 +1,7 @@
 package com.arnoldvaz27.simplify;
 
 public class Booleans {
-    public static Boolean Armstrong(int number) {
+    public static Boolean armstrong(int number) {
         int temp, digits = 0, last, sum = 0;
         temp = number;
         while (temp > 0) {
@@ -41,7 +41,7 @@ public class Booleans {
         return ((square_root - Math.floor(square_root)) == 0);
     }
 
-    public static Boolean Automorphic(int number) {
+    public static Boolean automorphic(int number) {
         int count = 0;
         String a;
         int square = number * number;

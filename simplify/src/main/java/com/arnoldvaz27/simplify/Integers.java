@@ -64,7 +64,7 @@ public class Integers {
         return fact;
     }
 
-    public static int VowelsNumber(String string) {
+    public static int vowelsNumber(String string) {
         int vCount = 0;
 
         string = string.toLowerCase();
@@ -77,7 +77,7 @@ public class Integers {
         return vCount;
     }
 
-    public static int ConsonantsNumber(String string) {
+    public static int consonantsNumber(String string) {
         int cCount = 0;
 
         string = string.toLowerCase();

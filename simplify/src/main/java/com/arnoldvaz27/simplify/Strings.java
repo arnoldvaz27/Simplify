@@ -1,7 +1,7 @@
 package com.arnoldvaz27.simplify;
 
-import static com.arnoldvaz27.simplify.Booleans.Armstrong;
-import static com.arnoldvaz27.simplify.Booleans.Automorphic;
+import static com.arnoldvaz27.simplify.Booleans.armstrong;
+import static com.arnoldvaz27.simplify.Booleans.automorphic;
 
 import java.util.Arrays;
 
@@ -83,7 +83,7 @@ public class Strings {
     }
 
     //Fibonacci series
-    public static String Fibonacci(int number) {
+    public static String fibonacci(int number) {
         int n1 = 0, n2 = 1, n3, i;
         StringBuilder a = new StringBuilder(n1 + "," + n2);
 
@@ -98,7 +98,7 @@ public class Strings {
     }
 
     //Factorial
-    public static String Factorial(int number) {
+    public static String factorial(int number) {
         String a;
         int i, fact = 1;
         for (i = 1; i <= number; i++) {
@@ -228,7 +228,7 @@ public class Strings {
     public static String checkArmstrong(int number) {
         StringBuilder a = new StringBuilder();
         for (int i = 0; i <= number; i++) {
-            if (Armstrong(i)) {
+            if (armstrong(i)) {
                 a.append(i).append(", ");
             }
         }
@@ -258,7 +258,7 @@ public class Strings {
     }
 
     //to Check the given number is sunny or not
-    public static String Sunny(int number) {
+    public static String sunny(int number) {
         String a;
         if (findSquare(number + 1)) {
             a = number + " is a sunny number.";
@@ -270,7 +270,7 @@ public class Strings {
         return a;
     }
 
-    public static String Punctuation(String string) {
+    public static String punctuation(String string) {
         int count = 0;
         String a;
         for (int i = 0; i < string.length(); i++) {
@@ -283,7 +283,7 @@ public class Strings {
         return a;
     }
 
-    public static String Vowels(String string) {
+    public static String vowels(String string) {
         int vCount = 0;
         String a;
         //Converting entire string to lower case to reduce the comparisons
@@ -299,7 +299,7 @@ public class Strings {
         return a;
     }
 
-    public static String Consonants(String string) {
+    public static String consonants(String string) {
         int cCount = 0;
         String a;
         string = string.toLowerCase();
@@ -318,7 +318,7 @@ public class Strings {
         return a;
     }
 
-    public static String Anagram(String string1, String string2) {
+    public static String anagram(String string1, String string2) {
         string1 = string1.toLowerCase();
         string2 = string2.toLowerCase();
         String a;
@@ -340,10 +340,10 @@ public class Strings {
         return a;
     }
 
-    public static String AutomorphicRange(int start, int end) {
+    public static String automorphicRange(int start, int end) {
         StringBuilder a = new StringBuilder();
         for (int i = start; i <= end; i++) {
-            if (Automorphic(i))
+            if (automorphic(i))
                 a.append(i).append(" ");
         }
 

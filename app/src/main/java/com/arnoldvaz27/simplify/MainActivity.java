@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
 
         textView = findViewById(R.id.header_title);
 
-        String s = Strings.AutomorphicRange(1,10000);
+        String s = Strings.automorphicRange(1,10000);
 
         textView.setText(s);
 
