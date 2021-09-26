@@ -77,40 +77,6 @@ dependencyResolutionManagement {
 
 2) Add the dependency in your **app *build.gradle***:
 
-<!--
-  
-  **If you want to use version 1.3 then add the following dependency** ![](https://img.shields.io/badge/Release-1.3-green) [![](https://jitpack.io/v/arnoldvaz27/Simplify.svg)](https://jitpack.io/#arnoldvaz27/Simplify)
- ```gradle
- 	dependencies {
-	        implementation 'com.github.arnoldvaz27:Simplify:1.3'
-	}
- ```
-  OR just copy the below code and paste in the ***build.gradle***
-```gradle
-implementation 'com.github.arnoldvaz27:Simplify:1.3'
-```
-
-  **If you want to use version 1.2 then add the following dependency** ![](https://img.shields.io/badge/Older%20Release-1.2-blue) [![](https://img.shields.io/badge/JitPack-1.2-brightgreen)](https://img.shields.io/badge/JitPack-1.2-blue)
- ```gradle
- 	dependencies {
-	        implementation 'com.github.arnoldvaz27:Simplify:1.2'
-	}
- ```
-  OR just copy the below code and paste in the ***build.gradle***
-```gradle
-implementation 'com.github.arnoldvaz27:Simplify:1.2'
-```
-  **If you want to use version 1.1 then add the following dependency** ![](https://img.shields.io/badge/Older%20Release-1.1-blue) [![](https://img.shields.io/badge/JitPack-1.1-brightgreen)](https://img.shields.io/badge/JitPack-1.0-blue)
- ```gradle
- 	dependencies {
-	        implementation 'com.github.arnoldvaz27:Simplify:1.1'
-	}
- ```
-  OR just copy the below code and paste in the ***build.gradle***
-```gradle
-implementation 'com.github.arnoldvaz27:Simplify:1.1'
-```
--->
 
   **Add the following dependency** ![](https://img.shields.io/badge/Latest%20Release-1.5-blue) [![](https://img.shields.io/badge/JitPack-1.5-brightgreen)](https://img.shields.io/badge/JitPack-1.5-blue)
  ```gradle
@@ -138,34 +104,6 @@ implementation 'com.github.arnoldvaz27:Simplify:1.5'
    
  2) Add the dependency:
  
- <!--
-  **If you want to use version 1.3 then add the following dependency** ![](https://img.shields.io/badge/Release-1.3-blue) [![](https://jitpack.io/v/arnoldvaz27/Simplify.svg)](https://jitpack.io/#arnoldvaz27/Simplify)
-  ```gradle
-	<dependency>
-	    <groupId>com.github.arnoldvaz27</groupId>
-	    <artifactId>Simplify</artifactId>
-	    <version>1.3</version>
-	</dependency>
- ```
-  **If you want to use version 1.2 then add the following dependency** ![](https://img.shields.io/badge/Older%20Release-1.2-blue) [![](https://img.shields.io/badge/JitPack-1.2-brightgreen)](https://img.shields.io/badge/JitPack-1.2-blue)
-  ```gradle
-	<dependency>
-	    <groupId>com.github.arnoldvaz27</groupId>
-	    <artifactId>Simplify</artifactId>
-	    <version>1.2</version>
-	</dependency>
- ```
-  **If you want to use version 1.1 then add the following dependency** ![](https://img.shields.io/badge/Older%20Release-1.1-blue) [![](https://img.shields.io/badge/JitPack-1.1-brightgreen)](https://img.shields.io/badge/JitPack-1.1-blue)
-  
-  ```gradle
-	<dependency>
-	    <groupId>com.github.arnoldvaz27</groupId>
-	    <artifactId>Simplify</artifactId>
-	    <version>1.1</version>
-	</dependency>
- ```
- -->
- 
   **Add the following dependency** ![](https://img.shields.io/badge/Latest%20Release-1.5-blue) [![](https://img.shields.io/badge/JitPack-1.5-brightgreen)](https://img.shields.io/badge/JitPack-1.5-blue)
   
   ```gradle
@@ -184,20 +122,7 @@ implementation 'com.github.arnoldvaz27:Simplify:1.5'
    ```
     
  2) Add the dependency:
- <!--
-  **If you want to use version 1.3 then add the following dependency** ![](https://img.shields.io/badge/Release-1.3-blue) [![](https://jitpack.io/v/arnoldvaz27/Simplify.svg)](https://jitpack.io/#arnoldvaz27/Simplify)
-  ```gradle
-	libraryDependencies += "com.github.arnoldvaz27" % "Simplify" % "1.3"
- ```
- **If you want to use version 1.2 then add the following dependency** ![](https://img.shields.io/badge/Older%20Release-1.2-blue) [![](https://img.shields.io/badge/JitPack-1.2-brightgreen)](https://img.shields.io/badge/JitPack-1.2-blue)
-  ```gradle
-	libraryDependencies += "com.github.arnoldvaz27" % "Simplify" % "1.2"
- ```
-**If you want to use version 1.1 then add the following dependency** ![](https://img.shields.io/badge/Older%20Release-1.1-blue) [![](https://img.shields.io/badge/JitPack-1.2-brightgreen)](https://img.shields.io/badge/JitPack-1.1-blue)
-  ```gradle
-	libraryDependencies += "com.github.arnoldvaz27" % "Simplify" % "1.1"
- ```
- -->
+ 
  
  **Add the following dependency** ![](https://img.shields.io/badge/Latest%20Release-1.5-blue) [![](https://img.shields.io/badge/JitPack-1.5-brightgreen)](https://img.shields.io/badge/JitPack-1.5-blue)
   ```gradle
@@ -213,21 +138,7 @@ implementation 'com.github.arnoldvaz27:Simplify:1.5'
    
  2) Add the dependency:
 
-<!--
-**If you want to use version 1.3 then add the following dependency** ![](https://img.shields.io/badge/Release-1.3-green) [![](https://jitpack.io/v/arnoldvaz27/Simplify.svg)](https://jitpack.io/#arnoldvaz27/Simplify)
-  ```gradle
-	:dependencies [[com.github.arnoldvaz27/Simplify "1.3"]]
- ```
-**If you want to use version 1.2 then add the following dependency** ![](https://img.shields.io/badge/Older%20Release-1.2-green) [![](https://img.shields.io/badge/JitPack-1.2-brightgreen)](https://img.shields.io/badge/JitPack-1.2-brightgreen)
-  ```gradle
-	:dependencies [[com.github.arnoldvaz27/Simplify "1.2"]]
- ```
 
-**If you want to use version 1.1 then add the following dependency** ![](https://img.shields.io/badge/Older%20Release-1.1-green) [![](https://img.shields.io/badge/JitPack-1.1-brightgreen)](https://img.shields.io/badge/JitPack-1.1-brightgreen)
-  ```gradle
-	:dependencies [[com.github.arnoldvaz27/Simplify "1.1"]]
- ```
- -->
  
   **Add the following dependency** ![](https://img.shields.io/badge/Latest%20Release-1.5-blue) [![](https://img.shields.io/badge/JitPack-1.5-brightgreen)](https://img.shields.io/badge/JitPack-1.5-blue)
    ```gradle
