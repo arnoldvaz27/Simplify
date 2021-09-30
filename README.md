@@ -189,7 +189,7 @@ Before making any changes, we recommend opening an issue (if one doesn't already
 
 ## License under MIT ![License](https://img.shields.io/badge/License-MIT-red)    ![Copyright](https://img.shields.io/badge/Copyright%202021-Arnold%20Alwyn%20Vaz-red)
 
-Check [here](https://github.com/arnoldvaz27/Simplify/blob/master/LICENSE) for more details 
+Check [here](https://github.com/arnoldvaz27/LICENSE) for more details 
 This library is shared under **MIT License**.
 
 <br>
